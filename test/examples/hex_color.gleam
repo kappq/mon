@@ -1,6 +1,6 @@
-import combinators.{map_res, tag, take_while_m_n}
 import gleam/int
 import mon.{type IResult, parse}
+import mon/combinators.{map_res, tag, take_while_m_n}
 
 pub type Color {
   Color(red: Int, green: Int, blue: Int)
